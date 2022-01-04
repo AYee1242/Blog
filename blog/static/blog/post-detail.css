@@ -1,0 +1,15 @@
+.profile-image {
+    max-height: 100px;
+}
+
+/* Style buttons */
+.icon-btn {
+    border: none;
+    /* Remove borders */
+    /* White text */
+    padding: 0px;
+    /* Some padding */
+    margin: auto;
+    cursor: pointer;
+    /* Mouse pointer on hover */
+}

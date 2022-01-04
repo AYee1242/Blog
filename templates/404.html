@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %} 
+    404 Not Found
+{% endblock %} 
+
+{% block css_files %} 
+    <link rel="stylesheet" href="{% static "blog/post.css" %}" /> 
+{% endblock %} 
+
+{% block jumbotron %}
+    <!-- Jumbotron -->
+    <div class="text-center bg-dark" id="test">
+      <h1 class="text-white mb-3">Page Not Found</h1>
+    </div>
+{% endblock jumbotron %}

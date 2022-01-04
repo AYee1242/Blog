@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+html {
+    font-family: 'Open Sans', 'Lato', sans-serif;
+}
+
+#intro {
+    /* Margin to fix overlapping fixed navbar */
+    margin-top: 58px;
+    height: 400px;
+}
+
+@media (max-width: 991px) {
+    #intro {
+        /* Margin to fix overlapping fixed navbar */
+        margin-top: 45px;
+    }
+}
