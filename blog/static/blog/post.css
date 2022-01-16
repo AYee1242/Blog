@@ -8,6 +8,11 @@
     object-fit: cover;
 }
 
+#jumbotron {
+    padding: 3rem;
+    padding-top: 6rem;
+}
+
 @media (max-width: 991px) {
     .card-img-top {
         height: 45vw;
